@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Opus Inc.</title>
+</head>
+
+<div>
+    <div class='container'>
+
+        <header>
+          <div id="mySidepanel" class="sidepanel">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="https://www.opus.inc/a-opus">Institucional</a>
+                  <a href="https://www.opus.inc/imoveis">Empreendimentos</a>
+                  <a href="https://www.opus.inc/blog">Revista Opus</a>
+                  <a href="https://www.opus.inc/portal-do-cliente">Portal do Cliente</a>
+                  <a href="https://portaldocorretoropus.com.br/">Portal do Corretor</a>
+                  <a href="https://www.opus.inc/contato">Contato</a>
+          </div>
+          
+          <button class="openbtn" onclick="openNav()">&#9776; MENU</button>   
+        </header>
+        
+        <header>
+                  <div class="bg-img">
+                        <div class="container">
+                        </div>
+                  </div>
+        </header>
+     
+  <main>
+
+    
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Seja Bem-Vindo! </h1>
+            <hr>
+            <p>Conheça nossos Empreendimentos</p>
+         
+         <br/>
+         <br/>
+         <br/>
+            <a id="botãoentrar" href='https://www.opus.inc/' target="_blank">Site Oficial</a>
+        </div>
+    </div>
+
+
+    <div id="textoopus">
+      <h1 class="texto01">Você tem todos motivos para escolher um Opus.</h1>
+      <p class="texto02">O que você deseja? Pode ser uma localização nobre, um atendimento premiado ou o maior programa de personalização do mercado. Não importa, a gente entrega com perfeição em cada detalhe. Afinal, na Opus o alto padrão está em tudo e onde mais importa: no nosso DNA. O DNA de uma empresa sólida, que atua com a responsabilidade de quem sabe que sonhos são feitos para se tornarem concretos.
+    
+    </div>
+
+
+          <section class='box-titulo'>
+                <img src="assets/img/banner-opus.jpg" alt="logo-opus">
+                <br/>           
+            </section>
+            
+
+        <section class="formulario">
+          <form id="regForm" action="">
+
+            <h1>Cadastro de Clientes</h1>
+            
+            <!-- Campo Formulario de Cadastro: -->
+            <div class="tab">Nome:
+              <p><input placeholder="Digite seu Nome..." oninput="this.className = ''"></p>
+              <p><input placeholder="Sobrenome..." oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Contacto Info:
+              <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+              <p><input placeholder="Contato..." oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Data de Nascimento:
+              <p><input placeholder="Dia" oninput="this.className = ''"></p>
+              <p><input placeholder="Mês" oninput="this.className = ''"></p>
+              <p><input placeholder="Ano" oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Login Info:
+              <p><input placeholder="Nome de Usuario..." oninput="this.className = ''"></p>
+              <p><input placeholder="Senha..." oninput="this.className = ''"></p>
+            </div>
+            
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button type="button" id="retornar" onclick="nextPrev(-1)">Voltar</button>
+                <button type="button" id="avançar" onclick="nextPrev(1)">Avançar</button>
+              </div>
+            </div>
+            
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+            
+            </form>
+        </section>
+
+
+
+  </main>
+
+        <footer>
+         <p class="autor">©copyright Pedro Humberto Jr | Opus.inc</p>
+        </footer>
+     
+       </div>
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+
+</html>
